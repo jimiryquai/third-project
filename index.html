@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learning how to learn</title>
-    <link rel="stylesheet" href="./styles/blocks/pages/index.css">
+    <link rel="stylesheet" href="./pages/index.css">
 </head>
 <body>
   <div class="page">
@@ -15,10 +15,8 @@
         <a href="#" class="header__link">Learn more &#8594;</a>
       </p>
       <img class="header__main-illustration" src="./images/on_the_edge.png" alt="man standing on the edge of a rock">
-      <div class="header__rotation">
-        <div class="header__square-pic">
+        <div class="header__square-pic rotation">
         </div>
-      </div>
     </header>
   <main class="content">
     <section class="description">
@@ -40,13 +38,13 @@
     </section>
     <section class="techniques">
       <h2 class="section-title">Learning Techniques</h2>
-      <h3 class="section-subtitle">Five Strategies from Barbara Oakley</h3>
+      <p class="section-subtitle">Five Strategies from Barbara Oakley</p>
       <ul class="cards">
         <li class="cards__item">
           <img src="./images/attention.png" class="cards__image" alt="person reading a book">
           <h4 class="cards__title">Two Ways of Thinking</h4>
           <p class="cards__description">
-            Deep understanding comes from being able to switch back and forth between focused and diffused thinking
+            Deep understanding comes from being able to toggle back and forth between focused and diffused thinking
           </p>
         </li>
         <li class="cards__item">
@@ -60,7 +58,7 @@
           <img src="./images/interliving.png" class="cards__image" alt="people in an atrium">
           <h4 class="cards__title">Interleaving</h4>
           <p class="cards__description">
-            When you learn multiple skills at the same time they reinforce each other
+            When you learn multiple skills at the same time, they reinforce each other
           </p>
         </li>
         <li class="cards__item">
@@ -84,16 +82,10 @@
       <h2 class="section-title">TED Talks</h2>
       <p class="section-subtitle">For lovers of procrastination</p>
       <div class="video__iframes">
-        <iframe class="video__iframe" id="ytplayer" type="text/html" width="515" height="316"
-src="https://www.youtube.com/embed/5MgBikgcWnY" frameborder="0" allowfullscreen></iframe>
-<iframe class="video__iframe" id="ytplayer" type="text/html" width="515" height="316"
-src="https://www.youtube.com/embed/arj7oStGLkU" frameborder="0" allowfullscreen></iframe>
-        <!-- <video class="video__iframe" width="515" height="316" controls>
-          <source src="https:www.youtube.com/watch?v=5MgBikgcWnY?start=0">
-        </video>
-        <video class="video__iframe" width="515" height="316" controls>
-          <source src="https:www.youtube.com/watch?v=arj7oStGLkU?start=0">
-        </video> -->
+        <iframe class="video__iframe" id="ytplayerkaufman" width="515" height="316"
+src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe>
+<iframe class="video__iframe" id="ytplayerurban" width="515" height="316"
+src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen></iframe>
       </div>
     </section>
     <section class="oakley">
@@ -114,7 +106,7 @@ may get at first glance gives you a deeper, more comprehensive understanding of 
       </div>
     </section>
     <section class="feynman">
-      <h2 class="feynman__title">The Feynman Technique</h2>
+      <h2 class="feynman__title">The&nbspFeynman Technique</h2>
       <h3 class="feynman__subtitle">Learn without forgetting.</h3>
       <a href="#" class="feynman__link">More &#8594;</a>
     </section>
@@ -167,7 +159,7 @@ may get at first glance gives you a deeper, more comprehensive understanding of 
     </section>
     <section class="khan">
       <div class="khan__container">
-        <h3 class="khan__author">Salman Khan</h3>
+        <p class="khan__author">Salman Khan</p>
         <h2 class="khan__title">The One World Schoolhouse</h2>
         <blockquote class="khan__quote">
           Sal Khan's passion and innovation is transforming learning for millions of 
@@ -236,19 +228,17 @@ may get at first glance gives you a deeper, more comprehensive understanding of 
             </p>
           </li>
         </ol>
-        <div class="rotation">
-          <img src="./images/triangle.svg" alt="blue-triangle" class="kaufman__triangle">
-        </div>
+          <img src="./images/triangle.svg" alt="blue-triangle" class="kaufman__triangle rotation">
       </section>
       <section class="resources">
         <h2 class="section-title">Useful resources</h2>
         <h3 class="section-subtitle">Further materials on learning techniques and hacks</h3>
-        <div class="resources__logo-zone">
-            <img src="./images/logo/tedED.png" class="resources__logo" alt="TedEd logo">
-            <img src="./images/logo/Medium.png" class="resources__logo" alt="Medium logo">
-            <img src="./images/logo/dezeen.png" class="resources__logo" alt="de zeen logo">
-            <img src="./images/logo/goodreads.png" class="resources__logo" alt="good reads logo">
-        </div>
+        <ul class="resources__logo-zone">
+            <li><img src="./images/logo/tedED.png" class="resources__logo" alt="TedEd logo"></li>
+            <li><img src="./images/logo/Medium.png" class="resources__logo" alt="Medium logo"></li>
+            <li><img src="./images/logo/dezeen.png" class="resources__logo" alt="de zeen logo"></li>
+            <li><img src="./images/logo/goodreads.png" class="resources__logo" alt="goodreads logo"></li>
+        </ul>
       </section>
     </main>
     <footer class="footer">
