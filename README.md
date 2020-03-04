@@ -1,10 +1,10 @@
 # Project 2
 
-##Description
+## Description
 
 This project built on top of Project 1 and included new concepts such as:
 
-1. Layou2 using CSS Grid
+1. Layout using CSS Grid
 2. BEM Nested File Structure
 3. CSS Animations
 
