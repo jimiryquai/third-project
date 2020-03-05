@@ -1,7 +1,6 @@
 .oakley {
     display: flex;
     flex-direction: column;
-    padding-top: 160px;
-    padding-bottom: 80px;
+    padding: 160px 0 100px;
     background-color: #f2f2f2;
 }
